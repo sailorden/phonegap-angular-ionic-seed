@@ -43,7 +43,7 @@ To build the application with phonegap:
 phonegap build ios|android|windows|whatevs
 ```
 
-Check the created platforms folder.
+Check the platforms directory.
 
 
 ## NOTE: 
