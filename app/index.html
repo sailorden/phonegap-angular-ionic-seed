@@ -31,7 +31,7 @@
 
     <!-- build:css(.) css/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/ionic/release/css/ionic.css"/>
+    <link rel="stylesheet" href="bower_components/ionic/release/css/ionic.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -40,13 +40,10 @@
     <!-- endbuild -->
     <title>Hello World</title>
 </head>
-<body ng-app="wrongmoveApp">
-<div>
+<body ng-app="helloWorldApp">
+<div ng-controller="HomeCtrl">
     <div class="bar bar-header bar-calm">
-        <h1 class="title">bar-calm</h1>
-    </div>
-    <div class="app" ng-controller="HomeCtrl">
-        {{message}}
+        <h1 class="title">&#9829; {{ message }} &#9829;</h1>
     </div>
 </div>
 

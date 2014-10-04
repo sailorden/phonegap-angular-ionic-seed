@@ -2,30 +2,16 @@
 
 /**
  * @ngdoc overview
- * @name wrongmoveApp
+ * @name helloWorld
  * @description
- * # wrongmoveApp
+ * # helloWorldApp
  *
  * Main module of the application.
  */
 angular
-  .module('wrongmoveApp', [
+  .module('helloWorldApp', [
     'ngAnimate',
     'ngCookies',
     'ngRoute',
     'ngTouch'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+  ]);

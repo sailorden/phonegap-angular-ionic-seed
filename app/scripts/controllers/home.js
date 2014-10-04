@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name wrongmoveApp.controller:HomectrlCtrl
+ * @name helloWorldApp.controller:HomectrlCtrl
  * @description
- * # HomectrlCtrl
+ * # HomeCtrl
  * Controller of the wrongmoveApp
  */
-angular.module('wrongmoveApp')
+angular.module('helloWorldApp')
   .controller('HomeCtrl', function ($scope) {
-    $scope.message = "Big floppy cock!";
+    $scope.message = "Build It";
   });
